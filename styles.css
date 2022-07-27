@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.banner-bg-img {
+  background-image: url(./images/banner.jpg);
+  height: 90vh;
+  background-size: cover;
+}
+.section-border {
+  border: 3px solid rgb(43, 42, 42);
+}
+.camera {
+  position: absolute;
+}
+.camera-card {
+  border-radius: 10px;
+  position: relative;
+  bottom: 40px;
+}
+.camera-card > h3 {
+  border-radius: 10px;
+}
+.top-bar {
+  border-top: 5px solid black;
+}
+.card > img {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #528e9ec5;
+}
+
+.card-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: (-50%, -50%);
+  translate: (-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
